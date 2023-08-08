@@ -25,7 +25,14 @@
     color: black;
 }
 .parent i{
-    padding-left: 20px;
+    /* padding-left: 20px;
+    border: 3px solid red;
+    background-color: red;
+    font-size: small;
+    border-radius: 100px;
+    color:white;
+    padding:2px; */
+    padding-left: 10px;
     border: 3px solid red;
     background-color: red;
     font-size: small;
@@ -42,6 +49,7 @@
     
     height: 60px;
 }
+/* }
 .nav-bar{
     display: flex;
     flex-wrap: wrap;
@@ -77,9 +85,30 @@
 .right-nav a:hover{
     color: red;
     border-bottom: 2px solid red;
+} */
+/* second nav */
+
+.klyn-logo{
+    width:20%;
 }
-
-
+.navigation-bar li{
+    width: 150px;
+    font-weight: 600;
+    color: rgb(107, 107, 107) !important;
+    cursor: pointer;
+}
+.our-brand{
+    color: red !important;
+    border-bottom: 2px solid red;
+}
+.nav-item span{
+    color: rgb(99, 99, 99);
+    padding-bottom: 10px;
+}
+.navigation-bar span:hover{
+    color: red;
+    border-bottom: 2px solid red;
+}
 /* 
 .row a{
     text-decoration: none;
@@ -109,123 +138,56 @@ font-weight: bold;
     height: 70px;
     padding-bottom: 5px;
     margin-left: 10px;
-} */ */
-.banner img{
-    /* background-size: cover; */
-    width:10% !important;
+} */ 
+
+.banner{
+    /* background-image: url(../images/banner.webp); */
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 340px;
+    margin-top: 20px;
     position: relative;
+    text-align: center;
+    /* background-color: red; */
 }
-.banlabel{
+.banner img{
+    width: 100%;
+}
+.all{
+    background-color: rgb(255, 231, 234);
+    height: auto;
+    width: 100%;
+    padding-bottom: 40px;
+    border-bottom: 4px solid red;
+}
+.phone-view{
+    display: none;
+}
+.or-clction{
+    /* background-color: red; */
     position: absolute;
-    top: 55%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
-    
-    
 }
-.banlabel p{
-    text-align: center;
-    padding-top: 10px;
+.or-clction h1{
+    letter-spacing: 12px;
+    padding-bottom: 8px;
+    font-size: 48px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+.ul{
+    border-bottom: 1px solid white;
+    width: 60%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.or-clction h1,.or-clction p{
     color: white;
-    margin-bottom: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    letter-spacing: 2px;
-    font-size: 12px;
-    
-}
-.banlabel h1{
-   
-    
-    color: white;
-    font-weight: 600;
-    letter-spacing: 4px;
-    text-align: center;
-    font-family: 'Lato', sans-serif;
-  
-}
-.border1{
-    border-bottom: 1px solid rgb(255, 255, 255);
-    width: 50%;
-   margin: auto;
-    
-    
 }
 
                            /* ////////////////////MOST LOVE///////////// */
-/* .most-love{
-    background-color: rgb(250, 220, 224);
-    height: 600px;
-}
- .most-love h1{
-    text-align: center;
-    padding-top: 20px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    letter-spacing: 5px;
- }
- .mostimg1{
-    padding-left: 70px;
- }
- .mostimg1 img{
-    padding-right: 20px;
- }
- .ul-most-love{
-    border-bottom: 2px solid black;
-    width: 15%;
-    margin-left: 530px;
- }
- .images{
-    margin-left: 15px;
-    padding-top: 40px;
- }
-  .mostimg2{
-    padding-left: 70px;
-  }
-  .mostimg2 img{
-    padding-right: 20px;
- }
- .miracletxt{
-    text-align: center;
-    padding-top: 30px;
-    letter-spacing: 3px ;
-    font-family: 'Lato', sans-serif;
-    font-weight: 500;
-    font-size: large;
- }
- .ul-miracletext{
-    border-bottom: 2px solid black;
-    width: 50%;
-    margin: auto;
-    padding-top: 5px;
- }
- .txt-undr-miracle{
-    text-align: center;
-    font-family: 'Lato', sans-serif;
-    font-weight: 500;
-    font-size: large;
-    padding-top: 10px;
- }
- .mostimg1 img:hover{
-    filter: brightness(.3);
-    transition: 0.5s;
- }
- .mostimg1{
-    position: relative;
-}
-.mostimg1 a{
-   
-    color: white;
-    text-decoration: none;
-    border: 1px solid white;
-   width: 210px;
-   height: 40px;
-   padding-top: 7px;
-   
-}
-.mostimg1 a:hover{
-    border: 2px solid white;
-    color: white;
-    display: inline;
-} */
+
 .most-loved{
     text-align: center;
     background-color: rgb(255, 223, 228);
@@ -362,6 +324,9 @@ font-weight: bold;
     
 
 }
+.peakokimg{
+    justify-content: center;
+}
 .explore{
     background-color:  rgb(255, 223, 228);
     height: 300px;
@@ -410,6 +375,7 @@ font-weight: bold;
     font-family:  -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
 
 }
+
 .caro-all{
     width: 75%;
     margin: auto;
@@ -444,35 +410,46 @@ font-weight: bold;
 
        /* logo section */
 .logo{
-    width: 100%;
     background-color:  rgb(255, 223, 228);
-    height: 400px;
+    height:50% 
+    
 }
 .logo img{
-    width: 70%;
-    gap: 5px;
-    cursor: pointer;
-}
-.logo span img {
-    width:35%;
-   justify-content: center;
-}
-.under1{
-    text-align: right;
-}
-.under2{
-    margin: 2%;
-}
-.rang {
-    margin-top: 15px;
-    width: 78%;
-}
-.ul-logo{
-    border-bottom: 2px solid red;
-    margin-top: 65px;
-    width: 100%;
+    width: 75%;
 }
 
+.products{
+    margin-top: 30px;
+    padding-bottom: 90px;
+    
+}
+.sec-row{
+    padding-top: 90px;
+}
+.products img{
+    width: 90%;
+    transition: 0.5s;
+}
+.products img:hover{
+    
+    padding-top: -9px;
+    transition: 0;
+      
+} 
+.logo-row span img{
+    width: 35%;
+    text-align: end;
+    margin-left:40% 
+}
+.logo-row span img{
+    width: 35%;
+    margin-right: 70%;
+  
+}
+.ul-logo{
+    border-bottom: 3px solid red;
+    
+}
 /* footer */
 
 .bottom-bar1{
@@ -513,6 +490,7 @@ font-weight: bold;
     border: none;
     padding: 3px;
 }
+/* }
 .white{
     background-color: white;
     height: 300px;
@@ -528,6 +506,7 @@ font-weight: bold;
 }
 .left-child1{
     display: flex;
+    flex-wrap: wrap;
     margin-top: 40px;
    
     padding-left: 10%;
@@ -603,7 +582,7 @@ font-weight: bold;
 }
 .feedback{
     margin-top: 35px;
-    gap: 20px;
+    gap: 2px;
     
 }
 .feedback input{
@@ -615,4 +594,232 @@ font-weight: bold;
     
     font-size: small;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.feedback p{
+    color: red;
+    border: 1px solid red;
+    width: 70px;
+    padding: 5px;
+    text-align: center;
+
+} */
+.footer{
+    height: 300px;
+    padding-top: 20px;
+}
+.b-left1{
+    margin-left: 80px;
+    gap: 3px;
+}
+.b-left-r1{
+    gap: 2px;
+ 
+}
+.drop{
+    border: 1px solid red;
+    color: red;
+    border-radius: 0px;
+    letter-spacing: 1px;
+    font-size: 10px;
+    width: 155px;
+    
+}
+
+.b-call i{
+    font-size: small;
+    color: red;
+    border: 1px solid red;
+    border-radius: 100%;
+    padding: 5px 5px;
+    
+}
+.b-call{
+    width: 180px;
+}
+.b-call a{
+    text-decoration: none;
+    color: red;
+    font-size: small;
+    margin-left: 5px;
+   
+    font-family: 'Times New Roman', Times, serif;
+}
+.b-email{
+    color: red;
+    cursor: pointer;
+    font-size: small;
+    
+    width: 180px;
+    
+}
+.b-email:hover{
+    color: black;
+}
+.b-logo i{
+    padding-left: 7px;
+    border: 3px solid red;
+    background-color: red;
+    font-size: small;
+    border-radius: 100px;
+    color:white;
+    padding:2px;
+}
+.b-logo  span i{
+    color: white;
+    background-color:rgb(10, 189, 10);;
+    border-color: rgb(10, 189, 10);
+}
+.b-left-r2 h6{
+    text-align:justify;
+    font-size: x-small;
+    font-weight: 400;
+    
+}
+.b-left-r2 {
+    padding-top: 30px;
+    padding-left: 80px;
+
+}
+.b-col2{
+    border-left: 1px solid black;
+}
+.b-col3{
+    border-left: 1px solid black;
+}
+
+.feedback{
+    margin-top: 35px;
+    gap: 2px;
+    
+}
+.feedback input{
+    border: none;
+    border-bottom: 1px solid rgb(184, 181, 181);
+    margin-bottom: 20px;
+}
+.feedback input::placeholder{
+    
+    font-size: small;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.feedback p{
+    color: red;
+    border: 1px solid red;
+    width: 70px;
+    padding: 5px;
+    text-align: center;
+
+}
+@media(min-width:400px) and (max-width:575.98px){
+    .peakokimg img {
+        width: 80%;
+        
+       
+        margin-top: 80px;
+        margin-left: 40px;
+       ;
+      
+        border: 10px solid white;
+        
+    
+    }   
+    .peakokimg{
+       justify-content: center;
+    
+       
+    }
+    
+.explore-all{
+    
+    height: 500px;
+}
+.logo-row img{
+    width: 170px;
+}
+.logo-row{
+    justify-content: center;
+    margin-left: 50px;
+    
+}
+.logo-row span img{
+    width: 65%;
+    text-align: center;
+    margin-left:0% 
+}
+.feed{
+    height: 300px;
+}
+.feedback p{
+   
+    width: 70px;
+    padding: 5px;
+    text-align: center;
+    margin-left: 40%;
+
+}
+.feed h6{
+    text-align: center;
+}
+
+.drop{
+   
+   
+   margin-left: 10%;
+    width: 155px;
+    
+}
+.email{
+    margin-top:-5%;
+    width: 250px;
+    
+    
+}
+.email input{
+    border: none;
+    padding: 3px;
+    width: 220px;
+}
+
+.b-call i{
+    font-size: small;
+    color: red;
+    border: 1px solid red;
+    border-radius: 100%;
+    padding: 5px 5px;
+    
+}
+.b-call{
+    width: 250px;
+    justify-content: center;
+    margin-left: 35%;
+    margin-top: 5px;
+}
+.b-call a{
+    text-decoration: none;
+    color: red;
+    font-size: small;
+    margin-left: 5px;
+   
+    font-family: 'Times New Roman', Times, serif;
+}
+.b-email{
+    color: red;
+    cursor: pointer;
+    font-size: small;
+    margin-left: 30%;
+   
+    
+    width: 180px;
+    
+}
+
+.b-logo {
+ margin-left: 35%;
+}
+.b-logo  span i{
+    color: white;
+    background-color:rgb(10, 189, 10);;
+    border-color: rgb(10, 189, 10);
+}
+     
 }

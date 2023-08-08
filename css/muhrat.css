@@ -1,0 +1,486 @@
+
+.parent{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    letter-spacing: 2px;
+    padding-top: 15px;
+    font-size: x-small;
+    
+    height: 10px;
+
+}
+.parent a{
+    text-decoration: none;
+    color: rgba(128, 128, 128, 0.905);
+
+}
+.parent a:hover{
+    color: black;
+}
+.parent i{
+    /* padding-left: 20px;
+    border: 3px solid red;
+    background-color: red;
+    font-size: small;
+    border-radius: 100px;
+    color:white;
+    padding:2px; */
+    padding-left: 10px;
+    border: 3px solid red;
+    background-color: red;
+    font-size: small;
+    border-radius: 100px;
+    color:white;
+    padding:2px;
+   
+
+}
+.parent i:hover{
+    color: black;
+}   
+.container-fluid{
+    
+    height: 60px;
+}
+
+/* second nav */
+
+.klyn-logo{
+    height:90px;
+    width:60px;
+    padding-bottom: 30px;
+    
+}
+.navigation-bar li{
+    width: 140px;
+    font-weight: 600;
+    color: rgb(107, 107, 107) !important;
+    cursor: pointer;
+}
+.navigation-bar{
+    width: 100%;
+    margin-left: 30px;
+}
+.muhurat{
+    color: red !important;
+    border-bottom: 2px solid red;
+}
+.nav-item span{
+    color: rgb(99, 99, 99);
+    padding-bottom: 10px;
+}
+.navigation-bar span:hover{
+    color: red;
+    border-bottom: 2px solid red;
+}
+.banner img{
+    width: 100%;
+    background-size: cover;
+    padding-top: 10px;
+}
+.imagefooter{
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: #f7d8b2;
+    justify-content: space-evenly;
+    height: 57px;
+    width: 100%;
+}
+
+.footerset a{
+    color: #91573d;
+    font-size: 15px;
+    padding-top: 17px;
+}
+.footerset a:hover{
+    color: #722e0e;
+ 
+    padding-top: 17px;
+    font-weight: bold;
+    transition: .5s;
+}
+.footerset{
+    width: 100%;
+}
+
+
+.navimg img {
+    height: 80px;
+    padding-left: 99px;
+    padding-top: 30px;
+}
+
+.navitem a {
+    font-size: 17px;
+    text-decoration: none;
+    color: #777171;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+
+.navitem a:hover {
+    color: red;
+    border-bottom: 1px solid red;
+}
+
+.navitem {
+    padding-top: 50px;
+    text-decoration: none;
+}
+
+.our a {
+    color: red;
+    border-bottom: 1px solid red;
+
+}
+.ul-banner{
+    border-left: 1px solid black;
+    /* width: 60%; */
+    height: 90px;
+    margin-left: 50%;
+    
+}
+.muhurat-head h1{
+    text-align: center;
+    font-family:  'Bodoni Moda', serif;
+    font-weight: bold;
+}
+.muhurat-head p{
+    text-align: justify;
+    justify-content: center;
+    font-weight: 400;
+    color: rgb(161, 158, 158);
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";;
+}
+.muhurat-head :hover{
+    background-color: black;
+    color: white;
+}
+.btn1{
+    text-align: center;
+    color: transparent;
+}
+.btn1 button{
+    background-color: transparent;
+    border: 1px solid black;
+    margin-top: 5px;
+    padding: 12px;
+}
+
+
+
+.images-collection{
+    padding-top: 50px;
+   
+    padding-left: 100px;
+    padding-right: 90px;
+}
+.images-collection img{
+    width: 10%;
+    height: 10%;
+}
+.images-collection img:hover{
+    /* -webkit-filter: brightness(.5); */
+    filter: brightness(.3);
+    transition: 0.5s;
+}
+.colction-img{
+    position:relative;
+}
+.colction-img img{
+    /* padding-right: px;
+    padding-top: px; */
+    padding: 4px;
+}
+
+.hide-btn {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  .colction-img:hover img{
+    filter: brightness(0.2);
+  }
+  
+  .colction-img:hover .hide-btn {
+    opacity: 1;
+  }
+  .colction-img:hover .hide-btn a{
+    /* opacity: 1; */
+    color: white;
+  }
+
+  .hide-btn a{
+    text-decoration: none;
+    color: white;
+  }
+  .hide-btn {
+    background-color: transparent;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  
+.colction-img{
+    position: relative;
+}
+.colction-img .hide-btn{
+   color: white;
+   text-decoration: none;
+   border: 1px solid white;
+   width: 270px;
+   height: 60px;
+   padding-top: 17px;
+   opacity: 0;
+   
+}
+.youtube{
+    padding-top: 40px;
+    text-align: center;
+    width: 100%;
+}
+.ul-red{
+    padding-top: 50px;
+    border-bottom:2px solid red ;
+}
+
+.bottom-bar1{
+    height: 110px;
+    background-color: #e6e7e2;
+}
+.bottom-bar1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
+    
+}
+.right-icon{
+    border: 2px solid red;
+    padding: 4px;
+    background-color: red;
+    color: white;
+    
+}
+.right-icon:hover{
+    color: black;
+}
+.subscribe p{
+    margin-top: 39px;
+    border: 1px solid white;
+    padding: 4px 4px;
+    font-size: small;
+    background-color: white;
+    letter-spacing: 1px;
+
+}
+.email{
+    margin-top: 38px;
+    
+}
+.email input{
+    border: none;
+    padding: 3px;
+}
+
+.footer{
+    height: 300px;
+    padding-top: 20px;
+}
+.b-left1{
+    margin-left: 80px;
+    gap: 3px;
+}
+.b-left-r1{
+    gap: 2px;
+ 
+}
+.drop{
+    border: 1px solid red;
+    color: red;
+    border-radius: 0px;
+    letter-spacing: 1px;
+    font-size: 10px;
+    width: 155px;
+    
+}
+
+.b-call i{
+    font-size: small;
+    color: red;
+    border: 1px solid red;
+    border-radius: 100%;
+    padding: 5px 5px;
+    
+}
+.b-call{
+    width: 180px;
+}
+.b-call a{
+    text-decoration: none;
+    color: red;
+    font-size: small;
+    margin-left: 5px;
+   
+    font-family: 'Times New Roman', Times, serif;
+}
+.b-email{
+    color: red;
+    cursor: pointer;
+    font-size: small;
+    
+    width: 180px;
+    
+}
+.b-email:hover{
+    color: black;
+}
+.b-logo i{
+    padding-left: 7px;
+    border: 3px solid red;
+    background-color: red;
+    font-size: small;
+    border-radius: 100px;
+    color:white;
+    padding:2px;
+}
+.b-logo  span i{
+    color: white;
+    background-color:rgb(10, 189, 10);;
+    border-color: rgb(10, 189, 10);
+}
+.b-left-r2 h6{
+    text-align:justify;
+    font-size: x-small;
+    font-weight: 400;
+    
+}
+.b-left-r2 {
+    padding-top: 30px;
+    padding-left: 80px;
+
+}
+.b-col2{
+    border-left: 1px solid black;
+}
+.b-col3{
+    border-left: 1px solid black;
+}
+
+.feedback{
+    margin-top: 35px;
+    gap: 2px;
+    
+}
+.feedback input{
+    border: none;
+    border-bottom: 1px solid rgb(184, 181, 181);
+    margin-bottom: 20px;
+}
+.feedback input::placeholder{
+    
+    font-size: small;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.feedback p{
+    color: red;
+    border: 1px solid red;
+    width: 70px;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+
+}
+.feedback p:hover{
+    background-color: red;
+    color: white;
+}
+@media(min-width:400px) and (max-width:575.98px){
+    
+.feed{
+    height: 300px;
+}
+.feedback p{
+   
+    width: 70px;
+    padding: 5px;
+    text-align: center;
+    margin-left: 40%;
+
+}
+.feed h6{
+    text-align: center;
+}
+
+.drop{
+   
+   
+   margin-left: 10%;
+    width: 155px;
+    
+}
+.email{
+    margin-top:-5%;
+    width: 250px;
+    
+    
+}
+.email input{
+    border: none;
+    padding: 3px;
+    width: 220px;
+}
+
+.b-call i{
+    font-size: small;
+    color: red;
+    border: 1px solid red;
+    border-radius: 100%;
+    padding: 5px 5px;
+    
+}
+.b-call{
+    width: 250px;
+    justify-content: center;
+    margin-left: 35%;
+    margin-top: 5px;
+}
+.b-call a{
+    text-decoration: none;
+    color: red;
+    font-size: small;
+    margin-left: 5px;
+   
+    font-family: 'Times New Roman', Times, serif;
+}
+.b-email{
+    color: red;
+    cursor: pointer;
+    font-size: small;
+    margin-left: 30%;
+   
+    
+    width: 180px;
+    
+}
+
+.b-logo {
+ margin-left: 35%;
+}
+.b-logo  span i{
+    color: white;
+    background-color:rgb(10, 189, 10);;
+    border-color: rgb(10, 189, 10);
+}
+.bottom-bar1{
+   width: 100%;
+}
+ 
+}
