@@ -1,0 +1,179 @@
+
+.parent{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-evenly;
+    letter-spacing: 2px;
+    padding-top: 15px;
+    font-size: x-small;
+    
+    height: 10px;
+
+}
+.parent a{
+    text-decoration: none;
+    color: rgba(128, 128, 128, 0.905);
+
+}
+.parent a:hover{
+    color: black;
+}
+.parent i{
+    /* padding-left: 20px;
+    border: 3px solid red;
+    background-color: red;
+    font-size: small;
+    border-radius: 100px;
+    color:white;
+    padding:2px; */
+    padding-left: 10px;
+    border: 3px solid red;
+    background-color: red;
+    font-size: small;
+    border-radius: 100px;
+    color:white;
+    padding:2px;
+   
+
+}
+.parent i:hover{
+    color: black;
+}   
+.container-fluid{
+    
+    height: 60px;
+}
+
+/* second nav */
+
+.klyn-logo{
+    height:90px;
+    width:50px;
+    padding-bottom: 30px;
+   
+    
+}
+.navigation-bar li{
+    width: 140px;
+    font-weight: 600;
+    color: rgb(107, 107, 107) !important;
+    cursor: pointer;
+    
+}
+.navigation-bar {
+    width: 100%;
+    margin-right: 60px;
+   
+}
+.muhurat{
+    color: red !important;
+    border-bottom: 2px solid red;
+}
+.nav-item span{
+    color: rgb(99, 99, 99);
+    padding-bottom: 10px;
+}
+.navigation-bar span:hover{
+    color: red;
+    border-bottom: 2px solid red;
+}
+.banner img{
+    width: 100%;
+    background-size: cover;
+    padding-top: 10px;
+}
+.imagefooter{
+    display: flex;
+    position: sticky;
+    top: 0;
+    background-color: #f7d8b2;
+    justify-content: space-evenly;
+    height: 57px;
+    width: 100%;
+}
+
+.footerset a{
+    color: #91573d;
+    font-size: 15px;
+    padding-top: 17px;
+}
+.footerset a:hover{
+    color: #722e0e;
+ 
+    padding-top: 17px;
+    font-weight: bold;
+    transition: .5s;
+}
+.footerset{
+    width: 100%;
+}
+
+
+.navimg img {
+    height: 80px;
+    padding-left: 99px;
+    padding-top: 30px;
+}
+
+.navitem a {
+    font-size: 17px;
+    text-decoration: none;
+    color: #777171;
+    padding-bottom: 10px;
+    font-weight: 600;
+}
+
+.navitem a:hover {
+    color: red;
+    border-bottom: 1px solid red;
+}
+
+.navitem {
+    padding-top: 50px;
+    text-decoration: none;
+}
+
+.our a {
+    color: red;
+    border-bottom: 1px solid red;
+
+}
+.banner-text p{
+    color: gray;
+    font-size: 10px;
+    letter-spacing: 1px;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+.ul-banner{
+    border-left: 1px solid black;
+    /* width: 60%; */
+    height: 90px;
+    margin-left: 50%;
+    
+}
+
+.muhurat-head h1{
+    text-align: center;
+    font-family:  'Bodoni Moda', serif;
+    font-weight: 600;
+}
+.muhurat-head p{
+    text-align: justify;
+    justify-content: center;
+    font-weight: 400;
+    color: rgb(161, 158, 158);
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";;
+}
+
+
+.btn1{
+    text-align: center;
+    color: transparent;
+}
+.btn1 button{
+    background-color: transparent;
+    border: 1px solid black;
+    margin-top: 5px;
+    padding: 12px;
+}

@@ -154,10 +154,8 @@
     color: rgb(161, 158, 158);
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";;
 }
-.muhurat-head :hover{
-    background-color: black;
-    color: white;
-}
+
+
 .btn1{
     text-align: center;
     color: transparent;
@@ -481,6 +479,11 @@
 }
 .bottom-bar1{
    width: 100%;
+}
+.youtube iframe{
+    width: 80%;
+    margin-left: 60px;
+    height: 40%;
 }
  
 }
